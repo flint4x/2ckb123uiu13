@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic — Official Resellers</title>
+    <meta name="description" content="Purchase Cosmic from our verified and trusted resellers. Instant key delivery available.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="cosmiclogo.png">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-logo">
+            <div class="loader-orbit"></div>
+            <div class="loader-orbit"></div>
+            <div class="loader-orbit"></div>
+            <span class="loader-center-text">C</span>
+        </div>
+        <div class="loader-progress">
+            <div class="loader-progress-fill"></div>
+        </div>
+        <span class="loader-status">Initializing</span>
+    </div>
+
+    <canvas id="starCanvas"></canvas>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="nav-brand">COSMIC</a>
+            <div class="nav-status">
+                <span class="nav-status-dot"></span>
+                <span class="nav-status-text">Online</span>
+            </div>
+        </div>
+        <div class="nav-right" id="navLinks">
+            <a href="index.html#features" class="nav-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                Features
+            </a>
+            <a href="index.html#faq" class="nav-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                FAQ
+            </a>
+            <a href="resellers.html" class="nav-link" style="color:#fff; background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.1);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Purchase
+            </a>
+            <a href="https://wyv.gg/product/cosmic-executor/" target="_blank" class="nav-cta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Get Cosmic
+            </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <section class="resellers-page">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-tag">Purchase</div>
+                <h1 class="section-title resellers-page-title">Official Cosmic Resellers</h1>
+                <p class="section-desc">Purchase from our verified partners with confidence. For any disputes or issues, please contact the respective store owner directly.</p>
+            </div>
+
+            <div class="official-store reveal">
+                <div class="official-store-badge">Official Store</div>
+                <div class="official-store-card">
+                    <div class="official-store-left">
+                        <div class="official-store-avatar">
+                            <img src="images/wyv.jpg" alt="Wyv">
+                        </div>
+                        <div class="official-store-info">
+                            <h2 class="official-store-name">Wyv.gg</h2>
+                            <span class="official-store-url">wyv.gg</span>
+                        </div>
+                    </div>
+                    <a href="https://wyv.gg/product/cosmic-executor/" target="_blank" class="official-store-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        Visit Official Store →
+                    </a>
+                </div>
+            </div>
+
+            <div class="resellers-divider-label reveal">
+                <span>Authorized Resellers</span>
+            </div>
+
+            <div class="resellers-grid">
+                <div class="reseller-card reveal reveal-delay-1">
+                    <div class="reseller-banner reseller-banner-logo">
+                        <img src="images/jjblox.jpg" alt="JJBlox">
+                    </div>
+                    <div class="reseller-body">
+                        <div class="reseller-avatar-wrap">
+                            <div class="reseller-avatar reseller-avatar-img">
+                                <img src="images/jjblox.jpg" alt="JJBlox">
+                            </div>
+                            <span class="reseller-status"></span>
+                        </div>
+                        <h3 class="reseller-name">JJBlox</h3>
+                        <span class="reseller-handle">jjblox.cc</span>
+                        <div class="reseller-links">
+                            <a href="https://jjblox.cc/product?id=cosmic" target="_blank" class="reseller-btn">Visit Store →</a>
+                            <a href="https://funpay.com/en/lots/offer?id=66171756" target="_blank" class="reseller-btn reseller-btn-alt">FunPay →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reseller-card reveal reveal-delay-2">
+                    <div class="reseller-banner">
+                        <img src="cosmicbanner.jpg" alt="Banner">
+                    </div>
+                    <div class="reseller-body">
+                        <div class="reseller-avatar-wrap">
+                            <div class="reseller-avatar reseller-avatar-img">
+                                <img src="images/floodline.png" alt="Floodline">
+                            </div>
+                            <span class="reseller-status"></span>
+                        </div>
+                        <h3 class="reseller-name">Floodline</h3>
+                        <span class="reseller-handle">floodline.store</span>
+                        <a href="https://floodline.store/product/cosmic" target="_blank" class="reseller-btn">Visit Store →</a>
+                    </div>
+                </div>
+
+                <div class="reseller-card reveal reveal-delay-3">
+                    <div class="reseller-banner">
+                        <img src="cosmicbanner.jpg" alt="Banner">
+                    </div>
+                    <div class="reseller-body">
+                        <div class="reseller-avatar-wrap">
+                            <div class="reseller-avatar reseller-avatar-img">
+                                <img src="images/rapidkeys.jpg" alt="Rapid Keys">
+                            </div>
+                            <span class="reseller-status"></span>
+                        </div>
+                        <h3 class="reseller-name">Rapid Keys</h3>
+                        <span class="reseller-handle">rapidkeys.net</span>
+                        <a href="https://rapidkeys.net/product?id=cosmic" target="_blank" class="reseller-btn">Visit Store →</a>
+                    </div>
+                </div>
+
+                <div class="reseller-card reveal reveal-delay-1">
+                    <div class="reseller-banner">
+                        <img src="cosmicbanner.jpg" alt="Banner">
+                    </div>
+                    <div class="reseller-body">
+                        <div class="reseller-avatar-wrap">
+                            <div class="reseller-avatar reseller-avatar-img">
+                                <img src="images/gckeys.jpg" alt="GC Keys">
+                            </div>
+                            <span class="reseller-status"></span>
+                        </div>
+                        <h3 class="reseller-name">GC Keys</h3>
+                        <span class="reseller-handle">gckeys.cc</span>
+                        <a href="https://gckeys.cc/product?slug=cosmic" target="_blank" class="reseller-btn">Visit Store →</a>
+                    </div>
+                </div>
+
+                <div class="reseller-card reveal reveal-delay-2">
+                    <div class="reseller-banner">
+                        <img src="cosmicbanner.jpg" alt="Banner">
+                    </div>
+                    <div class="reseller-body">
+                        <div class="reseller-avatar-wrap">
+                            <div class="reseller-avatar reseller-avatar-img">
+                                <img src="images/expresskeys.png" alt="Express Keys">
+                            </div>
+                            <span class="reseller-status"></span>
+                        </div>
+                        <h3 class="reseller-name">Express Keys</h3>
+                        <span class="reseller-handle">expresskeys.store</span>
+                        <a href="https://expresskeys.store/" target="_blank" class="reseller-btn">Visit Store →</a>
+                    </div>
+                </div>
+
+                <div class="reseller-card reveal reveal-delay-3">
+                    <div class="reseller-banner">
+                        <img src="banner.png" alt="Banner">
+                    </div>
+                    <div class="reseller-body">
+                        <div class="reseller-avatar-wrap">
+                            <div class="reseller-avatar reseller-avatar-img">
+                                <img src="images/tyronex.jpg" alt="Tyronex">
+                            </div>
+                            <span class="reseller-status"></span>
+                        </div>
+                        <h3 class="reseller-name">Tyronex</h3>
+                        <span class="reseller-handle">tyronex.store</span>
+                        <a href="https://tyronex.store/product/Cosmic-Premium-Buy-From-Tyronex-Best-Service/" target="_blank" class="reseller-btn">Visit Store →</a>
+                    </div>
+                </div>
+
+                <div class="reseller-card reveal reveal-delay-1">
+                    <div class="reseller-banner">
+                        <img src="banner.png" alt="Banner">
+                    </div>
+                    <div class="reseller-body">
+                        <div class="reseller-avatar-wrap">
+                            <div class="reseller-avatar reseller-avatar-img">
+                                <img src="images/valary.jpg" alt="Valary">
+                            </div>
+                            <span class="reseller-status"></span>
+                        </div>
+                        <h3 class="reseller-name">Valary</h3>
+                        <span class="reseller-handle">valary.cc</span>
+                        <a href="https://valary.cc/product?id=cosmic-executor" target="_blank" class="reseller-btn">Visit Store →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">COSMIC</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#features">Features</a>
+                <a href="resellers.html">Purchase</a>
+                <a href="index.html#faq">FAQ</a>
+            </div>
+            <div class="footer-copy">&copy; 2026 Cosmic. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic — The Future of Roblox Execution</title>
+    <meta name="description" content="The most powerful and undetected Roblox executor.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="cosmiclogo.png">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-logo">
+            <div class="loader-orbit"></div>
+            <div class="loader-orbit"></div>
+            <div class="loader-orbit"></div>
+            <span class="loader-center-text">C</span>
+        </div>
+        <div class="loader-progress">
+            <div class="loader-progress-fill"></div>
+        </div>
+        <span class="loader-status">Initializing</span>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-left">
+            <a href="#" class="nav-brand">COSMIC</a>
+            <div class="nav-status">
+                <span class="nav-status-dot"></span>
+                <span class="nav-status-text">Online</span>
+            </div>
+        </div>
+        <div class="nav-right" id="navLinks">
+            <a href="#features" class="nav-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                Features
+            </a>
+            <a href="#faq" class="nav-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                FAQ
+            </a>
+            <a href="resellers.html" class="nav-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                Purchase
+            </a>
+            <a href="resellers.html" class="nav-cta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Get Cosmic
+            </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <canvas id="starCanvas"></canvas>
+
+    <section class="hero" id="home">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="dot"></span>
+                Now Available
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-title-text">COSMIC</span>
+            </h1>
+            <p class="hero-subtitle">The most powerful and undetected Roblox executor. Dominate every server with lightning-fast execution.</p>
+            <div class="hero-buttons">
+                <a href="#purchase" class="btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    Get Cosmic Now
+                </a>
+                <a href="#features" class="btn-secondary">Explore Features</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Uptime</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0.1s</div>
+                    <div class="stat-label">Injection</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="features">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-tag">Why Cosmic?</div>
+                <h2 class="section-title">Built For Domination</h2>
+                <p class="section-desc">Every feature engineered for speed, stability, and stealth.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal reveal-delay-1">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Fully Undetected</h3>
+                    <p class="feature-desc">Advanced anti-detection keeps you invisible. Cosmic stays one step ahead of every security update.</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-2">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Instant Injection</h3>
+                    <p class="feature-desc">Attach and inject in under 0.1 seconds. No freezing, no crashing — just raw speed.</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-3">
+                    <div class="feature-icon">📜</div>
+                    <h3 class="feature-title">Script Hub</h3>
+                    <p class="feature-desc">Access thousands of pre-loaded scripts for the most popular games. One-click execution.</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-1">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Auto Updates</h3>
+                    <p class="feature-desc">Cosmic updates itself instantly after every Roblox patch. Zero downtime, always ready.</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-2">
+                    <div class="feature-icon">🧩</div>
+                    <h3 class="feature-title">Full Lua Support</h3>
+                    <p class="feature-desc">Execute any Lua script with full environment support. Compatible with all major script libraries.</p>
+                </div>
+                <div class="feature-card reveal reveal-delay-3">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Custom UI</h3>
+                    <p class="feature-desc">Sleek, modern interface designed for ease of use. Dark mode, tabs, favorites, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="purchase">
+        <div class="section-container" style="text-align: center;">
+            <div class="section-header reveal" style="margin-bottom: 32px;">
+                <div class="section-tag">Resellers</div>
+                <h2 class="section-title">Get Cosmic Today</h2>
+                <p class="section-desc">Purchase from our verified partners with confidence.</p>
+            </div>
+            <a href="resellers.html" class="btn-primary reveal">
+                View Official Resellers →
+            </a>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="faq">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-tag">FAQ</div>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-desc">Everything you need to know about Cosmic.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal reveal-delay-1">
+                    <button class="faq-question">
+                        <span>Is Cosmic undetected?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes, Cosmic uses advanced anti-detection technology to remain fully undetected. Our team monitors every Roblox update and pushes patches before they can affect you.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-2">
+                    <button class="faq-question">
+                        <span>How fast are updates after a Roblox patch?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Cosmic typically updates within minutes of a Roblox patch. Our automated systems detect changes and push fixes rapidly, so you experience minimal downtime.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-3">
+                    <button class="faq-question">
+                        <span>What scripts are supported?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Cosmic supports all Lua scripts with a full execution environment. It is compatible with popular script hubs and libraries. If a script works on other top-tier executors, it works on Cosmic.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-4">
+                    <button class="faq-question">
+                        <span>How do I get support?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Join our Discord community for 24/7 support from our team and other users. We also have detailed documentation and video tutorials available.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-1">
+                    <button class="faq-question">
+                        <span>Where can I buy Cosmic?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">You can purchase Cosmic from any of our authorized resellers listed in the Purchase section above. Each reseller offers instant key delivery.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">COSMIC</div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#purchase">Purchase</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-copy">&copy; 2026 Cosmic. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
